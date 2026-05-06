@@ -1,1 +1,6 @@
-causal_elliptic++ filter=lfs diff=lfs merge=lfs -text
+causal_elliptic++/AddrAddr_edgelist_causal.csv filter=lfs diff=lfs merge=lfs -text
+causal_elliptic++/AddrAddr_edgelist_causal.zip filter=lfs diff=lfs merge=lfs -text
+causal_elliptic++/transactions_features/txs_features.csv filter=lfs diff=lfs merge=lfs -text
+causal_elliptic++/transactions_features/txs_features.zip filter=lfs diff=lfs merge=lfs -text
+causal_elliptic++/wallet_features/wallets_features_causal.csv filter=lfs diff=lfs merge=lfs -text
+causal_elliptic++/wallet_features/wallets_features_causal.zip filter=lfs diff=lfs merge=lfs -text
