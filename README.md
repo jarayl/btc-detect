@@ -29,9 +29,8 @@ stat175-final/
 
 ## Reading the structure
 
-- **`causal_elliptic++/`** is the Elliptic++ dataset. Files here have had
-  future-information leakage removed; see
-  `architectures/elliptic++_causal/inductive_feature_gen/README.md` for the
+- **`causal_elliptic++/`** contains the entire Elliptic++Causal dataset (including edges from the original Elliptic++ dataset). Files here have had
+  future-information leakage removed; see `architectures/elliptic++_causal/inductive_feature_gen/README.md` for the
   exact transformations and per-feature definitions.
 - **`architectures/`** is organized by experiment family, not by model
   type. Each subdirectory is self-contained: notebooks read from
@@ -43,10 +42,6 @@ stat175-final/
 - **`architectures/inductive_tx_classification/cross_step_tx_graph/`** is a
   numbered pipeline (`step1_…` through `step7_…`); run in order. Its
   `cache/` holds intermediate `.npy` blocks.
-- **`architectures/deprecated/`** contains superseded notebooks
-  (`embeddings`, `gnn`, `graph_hawkes`, `wallet_sota`,
-  `initial_experiements`, `RESULTS.md/html`). Kept locally for reference,
-  not version-controlled.
 
 ## Setup
 
