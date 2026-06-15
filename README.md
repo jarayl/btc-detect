@@ -1,4 +1,4 @@
-# stat175-final
+# Project Desc
 
 Anti–money-laundering classification on the Elliptic++ dataset, with a focus
 on causality-respecting (strictly inductive) graph models.
